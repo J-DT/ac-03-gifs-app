@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:href": "ng build --base-href ./",
-    "build:gitpages": "ng build --base-href ./ --output-path docs && rm -rf ../docs && mv docs ../ && rm -rf dist"
+    "build:gitpages": "ng build --base-href ./ --output-path docs"
   },
   "private": true,
   "dependencies": {
